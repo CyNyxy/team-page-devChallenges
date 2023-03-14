@@ -32,8 +32,8 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  margin-left: min(15px, 100%);
-  margin-right: min(15px, 100%);
+  margin-left: min(10px, 100%);
+  margin-right: min(10px, 100%);
 }
 
 .intro {
@@ -62,13 +62,12 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 5%;
   justify-content: center;
 }
 
 .cell-img {
   display: flex;
-
 }
 
 .job {
@@ -78,7 +77,7 @@ header {
   text-transform: uppercase;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .footer-info {
@@ -116,9 +115,6 @@ header {
   }
 
 @media screen and (min-width: 668px) {
-  .grid-cell:nth-child(2), .grid-cell:nth-child(4), .grid-cell:nth-child(6) {
-    justify-content: flex-end;
-  }
   .grid-cell:nth-child(1), .grid-cell:nth-child(3), .grid-cell:nth-child(5) {
     justify-content: flex-start;
   }
